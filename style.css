@@ -1,0 +1,131 @@
+img{
+    height: 15rem;
+    max-width: 23rem;
+    float: left;
+    margin-bottom: 1rem;
+}
+
+*{
+    font-family: Arial, Verdana, sans-serif;
+    color: #031927;
+    text-align: center;   
+    background-color: #BA1200;
+    margin: auto;
+}
+
+body, section, label, form, aside, img, h6, h4, h3, p, input, option, select{
+    background-color: #F6EFEE;
+}
+
+article{
+    border-top: 2.5px #464646 solid;
+}
+
+p{
+    padding-top: 1.5rem;
+    font-size: 1.1rem;
+}
+
+input{
+    min-height: 1.3rem;
+}
+
+option, select{
+    color: #031927;
+    width: 77%;
+    min-height: 2rem;
+    font-size: 1.2rem;
+    border-radius: 7px;
+}
+
+#date{
+    width: 17rem;
+    min-height: 1.5rem;
+    border-radius: 3px;
+}
+
+#numOfPep{
+    width: 6.5rem;
+}
+
+body{
+    min-height: 47rem;
+}
+
+p, h3, h6, label, input{
+    color: #464646;
+}
+
+h3{
+    font-size: 1.7rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+h6{
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+section{
+    overflow: auto;
+}
+
+.facil{
+    border-top: 2.5px solid;
+    border-collapse: collapse;
+    border-color: #464646;
+}
+
+.column1, .column2{
+    width: 48%;
+    float: left;
+    margin: 1%;
+}
+
+ol{
+    list-style-type: circle;
+}
+
+li{
+    display: inline;
+    margin: 0.5em;
+}
+
+nav, footer{
+    padding: 0.5em 0;
+}
+
+nav{
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+header{
+    border-bottom: 2.5px #464646 solid;
+    border-collapse: collapse;
+}
+
+a.active{
+    color: #a0a0a0;
+    border-bottom: 5px solid;
+}
+
+a:hover{
+    color: #a0a0a0;
+}
+
+aside{
+    height: 15rem;
+    border-radius: 3px;
+}
+
+form{
+    margin-top: 1rem;
+}
+
+#name{
+    min-width: 18rem;
+}

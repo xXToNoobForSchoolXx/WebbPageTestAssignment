@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <title>Christian Resebolag Bokning</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Hemsida</a></li>
+                <li><a href="booking.html" class="active">Bokning</a></li>
+                <li><a href="facilities.html">Faciliteter</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <form>
+            <label for="fname">Förnamn:</label><br>
+            <input type="text" name="fname" id="name"><br>
+            <label for="lname">Efternamn:</label><br>
+            <input type="text" name="lname" id="name"><br><br>
+            <label for="ssn">Personnummer:</label><br>
+            <input type="text" name="ssn" id="ssn" placeholder="YYYY-MM-DD-XXXX"><br><br>
+            
+            <label for="numOfPep">Antal personer:</label><br>
+            <input type="number" name="numOfPep" id="numOfPep"><br><br>
+                        
+            <label for="date">Incheckning:</label><br>
+            <input type="date" name="datefrom" id="date"><br>
+            <label for="date">Utcheckning:</label><br>
+            <input type="date" name="datetill" id="date"><br><br>
+
+            <label for="facility">Välj stad;</label><br>
+            <select name="facility" id="city" placeholder="Stad">
+                <option value="Jonkoping">Jönköping</option>
+                <option value="Stockholm">Stockholm</option>
+                <option value="Helsingfors">Helsingfors</option>
+            </select><br><br>
+
+            <label for="facility">Välj boände;</label><br>
+            <select name="facility" id="Place">
+                <option value="B&B">B&B</option>
+                <option value="Hotel">Hotell</option>
+                <option value="Hostel">Vandrarhem</option>
+            </select><br><br>
+
+            <input type="button" value="Boka">
+        </form>
+    </section>
+</body>
+</html>
